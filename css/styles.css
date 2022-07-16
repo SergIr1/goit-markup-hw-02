@@ -1,0 +1,145 @@
+/* шапка 
+
+веб студия #000000
+
+белый #ffffff 
+
+синий #2196f3
+
+черный #2f303a
+*/
+
+/* заголовки черный   #212121
+текст серый           #757575 */
+
+/* наша команда секция  
+
+background: #f5f4fa; */
+
+/*  Подвал
+
+#ffffff прозрачность 60 %
+ */
+
+ /* основной #212121
+ вторичный #757575
+ акцент rgba(255, 255, 255, 0.6);*/
+
+
+body {
+
+background-color: #ffffff;
+color: #757575;
+}
+
+
+/*  logo */
+
+.logo{
+    color:#000000;
+}
+
+.logo-web{
+    color:#2196f3;
+}
+
+.page-header .logo:hover,
+.page-header .logo:focus{
+    color:#2196f3;
+}
+
+.list{
+    list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link{
+    color:#212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:#2196f3;
+}
+
+/* adress-nav */
+
+.adress-nav .link{
+    color:#757575;
+}
+
+.adress-nav .link:hover,
+.adress-nav .link:focus{
+color: #2196f3;
+}
+
+/* h */
+
+.section .section-title{
+    color:#212121;
+}
+
+.section.clients{
+background-color: #2f303a;
+}
+
+.clients > .section-title{
+    color:#ffffff;
+}
+
+.clients > .section-button{
+color:#ffffff;
+background-color: #2196f3;
+}
+
+/* our team */
+
+.section.fon{
+    background-color: #f5f4fa;
+}
+
+/* footer */
+
+.footer{
+    background-color: #2f303a;
+    color:#ffffff;
+}
+
+.logo-white{
+color:#ffffff;
+}
+
+.footer .logo-white:hover,
+.footer .logo-white:focus{
+    color:#2196f3;
+}
+
+.footer .footer-mail{
+    color:rgba(255, 255, 255, 0.6);
+}
+
+.footer .footer-mail:hover,
+.footer .footer-mail:focus{
+    color:#2196f3;
+}
+
+.footer .footer-tel{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .footer-tel:hover,
+.footer .footer-tel:hover{
+    color: #2196f3;
+}
+
+
+
+.test-link:hover,
+.test-link:focus{
+    color:green;
+}
+
+.test-link:active{
+    color:red;
+}
