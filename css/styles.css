@@ -206,7 +206,7 @@ color:var(--white-text-color);
 
 .button.primary:hover,
 .button.primary:focus{
-    color: var(--white-text-color);
+    color: var(--accent-text-color);
 }
 
 /* Portfolio */
@@ -223,6 +223,21 @@ color:var(--white-text-color);
 .filtre .btn-filtre:hover,
 .filtre .btn-filtre:focus{
     color: var(--accent-text-color);
+}
+
+.filtre .page-btn-filtre {
+    color: var(--title-text-color);
+    background-color: var(--bg-team-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.filtre .page-btn-filtre:hover,
+.filtre .page-btn-filtre:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
 }
 
 .section.secondory .section-title{
