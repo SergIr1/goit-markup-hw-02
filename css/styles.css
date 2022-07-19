@@ -15,7 +15,6 @@ body {
 background-color: var(--white-text-color);
 color: var(--primary-text-color);
 font-family: Roboto, sans-serif;
-letter-spacing: 0.03em; 
 }
 
 
@@ -28,14 +27,16 @@ letter-spacing: 0.03em;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
 }
 
 .logo-web{
     color:var(--accent-text-color);
 }
 
-.page-header .logo:hover,
-.page-header .logo:focus{
+.logo:hover,
+.logo:focus{
     color:var(--accent-text-color);
 }
 
@@ -46,7 +47,8 @@ letter-spacing: 0.03em;
 
 /* site-nav */
 
-.site-nav .link{
+.site-nav-link,
+.site-nav-link{
     color:var(--title-text-color);
         font-weight: 500;
         font-size: 14px;
@@ -55,18 +57,18 @@ letter-spacing: 0.03em;
         text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus{
+.site-nav-link:hover,
+.site-nav-link:focus{
     color:var(--accent-text-color);
 }
 
-.site-nav .link.current{
-    color:var(--accent-text-color);
+.current{
+    color: var(--accent-text-color);
 }
 
 /* adress-nav */
 
-.adress-nav .link{
+.adress-nav-link{
     color:var(--primary-text-color);
         font-weight: 500;
         font-size: 14px;
@@ -75,179 +77,166 @@ letter-spacing: 0.03em;
         text-decoration: none;
 }
 
-.adress-nav .link:hover,
-.adress-nav .link:focus{
+.adress-nav-link:hover,
+.adress-nav-link:focus{
 color: var(--accent-text-color);
 }
 
 
-/* h */
+/* hero */
 
-.section .section-title{
+.section-hero-title{
     color:var(--title-text-color);
+    background-color: var(--bg-hero-color);
 }
 
-.section.clients .section-title{
-background-color: var(--bg-hero-color);
-}
-
-.clients .section-title{
+.section-hero-title{
     color:var(--white-text-color);
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
-    
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
 }
 
-/* practice */ 
+/* button */
 
-.section.practice .section-title {
+.button {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--white-text-color);
+    background-color: var(--bg-button-color);
+}
+
+/* Advantage */ 
+
+.section-title-advantage {
+    color:var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.section.practice .text {
+.text-advantage {
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 /* Work */
 
-.section.work .section-title,
-.section.fon .section-title {
+.section-title {
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 
 /* our team */
 
-.section.fon{
+.section-fon{
     background-color: var(--bg-team-color);
 }
 
-.list.team .section-title {
+.section-title-team {
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.list.team .text{
-    font-size: 16px;
+.text-team{
+        font-size: 16px;
         line-height: 1.9;
         text-align: center;
+        letter-spacing: 0.03em;
 }
 
 /* footer */
 
 .footer{
     background-color: var(--title-text-color);
-    color:var(--white-text-color);
 }
 
 .logo-white{
 color:var(--white-text-color);
 }
 
-.footer .logo-white:hover,
-.footer .logo-white:focus{
+.logo-white:hover,
+.logo-white:focus{
     color:var(--accent-text-color);
 }
 
-.footer .text-address{
+.text-address{
     color:var(--white-text-color);
 }
 
-.footer .footer-mail,
-.footer .footer-tel{
+.footer-mail,
+.footer-tel{
     color: var(--contact-text-color);
 }
 
-.footer .text-address:hover,
-.footer .text-address:focus,
-.footer .footer-mail:hover,
-.footer .footer-mail:focus,
-.footer .footer-tel:hover,
-.footer .footer-tel:focus {
+.text-address:hover,
+.text-address:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
     color: var(--accent-text-color);
 }
 
-.footer .text-address,
-.footer .footer-mail,
-.footer .footer-tel{
+.text-address,
+.footer-mail,
+.footer-tel{
     text-decoration: none;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
-
-/* Button */
-
-.button{
-    color: var(--title-text-color);
-    background-color: var(--white-text-color);
-    cursor: pointer;
-}
-
-.button.primary {
-    color: var(--white-text-color);
-    background-color: var(--accent-text-color);
-}
-
-.button.primary:hover,
-.button.primary:focus{
-    color: var(--white-text-color);
-    background-color: var(--bg-button-color);
-}
 
 /* Portfolio */
 
-.filtre .btn-filtre{
+.btn-filtre{
     color:var(--title-text-color);
     background-color: var(--bg-team-color);
+    font-size: 16px;
     font-weight: 500;
-        font-size: 16px;
         line-height: 1.62;
         text-align: center;
 }
 
-.filtre .btn-filtre:hover,
-.filtre .btn-filtre:focus{
-    color: var(--accent-text-color);
-}
-
-.filtre .page-btn-filtre {
-    color: var(--title-text-color);
-    background-color: var(--bg-team-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-}
-
-.filtre .page-btn-filtre:hover,
-.filtre .page-btn-filtre:focus {
+.btn-filtre:hover,
+.btn-filtre:focus{
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
 }
 
-.section.secondory .section-title{
+
+.filtre-section-title{
+    color:var(--title-text-color);
     font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
 }
 
-.section.secondory .text{
+.filtre-text{
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
 }
