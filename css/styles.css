@@ -7,6 +7,7 @@
     --logo-text-color:#000000;
     --bg-hero-color:#2f303a;
     --bg-team-color:#f5f4fa;
+    --bg-button-color:#188ce8;
 }
 
 body {
@@ -192,8 +193,8 @@ color:var(--white-text-color);
 /* Button */
 
 .button{
+    color: var(--title-text-color);
     background-color: var(--white-text-color);
-    color:var(--title-text-color);
     cursor: pointer;
 }
 
@@ -204,7 +205,8 @@ color:var(--white-text-color);
 
 .button.primary:hover,
 .button.primary:focus{
-    color: var(--accent-text-color);
+    color: var(--white-text-color);
+    background-color: var(--bg-button-color);
 }
 
 /* Portfolio */
