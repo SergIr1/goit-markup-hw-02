@@ -216,8 +216,9 @@ color:var(--white-text-color);
     background-color: var(--bg-team-color);
     font-size: 16px;
     font-weight: 500;
-        line-height: 1.62;
-        text-align: center;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
 }
 
 .btn-filtre:hover,
