@@ -161,33 +161,31 @@ color:var(--white-text-color);
     color:var(--accent-text-color);
 }
 
-.footer .footer-mail{
-    color:var(--contact-text-color);
-    text-decoration: none;
+.footer .text-address{
+    color:var(--white-text-color);
 }
 
-.footer .footer-mail:hover,
-.footer .footer-mail:focus{
-    color:var(--accent-text-color);
-}
-
+.footer .footer-mail,
 .footer .footer-tel{
     color: var(--contact-text-color);
-    text-decoration: none;
 }
 
+.footer .text-address:hover,
+.footer .text-address:focus,
+.footer .footer-mail:hover,
+.footer .footer-mail:focus,
 .footer .footer-tel:hover,
-.footer .footer-tel:hover{
+.footer .footer-tel:focus {
     color: var(--accent-text-color);
 }
 
-.footer .text-footer,
+.footer .text-address,
 .footer .footer-mail,
 .footer .footer-tel{
+    text-decoration: none;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
-    font-weight: 400;
 }
 
 
